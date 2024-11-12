@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.lightamethyst222.voidstone.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ExampleMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "voidstone",
+	"version": "${version}",
+	"name": "Voidstone",
+	"description": "A mod that adds more layers below deepslate",
+	"authors": [
+		"LightAmethyst222"
+	],
+	"contact": {
+		"homepage": "https://lightamethyst222.net/",
+		"sources": "https://github.com/lightamethyst222/voidstone-1.21.1"
+	},
+	"license": "MIT",
+	"icon": "assets/voidstone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lightamethyst222.voidstone.Voidstone"
+		],
+		"fabric-datagen": [
+			"net.lightamethyst222.voidstone.VoidstoneDataGenerator"
+		],
+		"client": [
+			"net.lightamethyst222.VoidstoneClient"
+		]
+	},
+	"mixins": [
+		"voidstone.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

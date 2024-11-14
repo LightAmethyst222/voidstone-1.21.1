@@ -22,7 +22,7 @@
 			"net.lightamethyst222.voidstone.VoidstoneDataGenerator"
 		],
 		"client": [
-			"net.lightamethyst222.VoidstoneClient"
+			"net.lightamethyst222.voidstone.VoidstoneClient"
 		]
 	},
 	"mixins": [
